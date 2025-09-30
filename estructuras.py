@@ -1,6 +1,6 @@
 from collections import deque
 
-class Pila:
+class Table:
     def __init__(self):
         self.elementos = []
 
@@ -20,7 +20,7 @@ class Pila:
         return len(self.elementos)
 
 
-class Cola:
+class Queue:
     def __init__(self):
         self.elementos = deque()
 
@@ -40,7 +40,7 @@ class Cola:
         return len(self.elementos)
 
 
-class TablaDiccionario:
+class Hash:
     def __init__(self):
         self.tabla = dict()
 
